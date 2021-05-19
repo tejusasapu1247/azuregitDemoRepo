@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: danhellem/github-actions-issue-to-work-item@master
         env:
-          ado_token: "${{ secrets.Azure }}"
-          github_token: "${{ secrets.GitHub }}"
+          ado_token: "${{ secrets.azure }}"
+          github_token: "${{ secrets.github }}"
           ado_organization: "tejusasapu47"
           ado_project: "AzureGitDemo"
           ado_wit: "User Story"
